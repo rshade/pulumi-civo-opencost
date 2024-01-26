@@ -1,0 +1,10 @@
+name: pulumi-civo-opencost
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: a civo cluster that installs opencost with helm
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: https://www.pulumi.com/ai/api/project/bb890880-c98b-4b9f-9db2-e8e1b22717e6.zip
